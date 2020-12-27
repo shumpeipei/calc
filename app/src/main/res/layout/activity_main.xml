@@ -28,4 +28,11 @@
         android:layout_below="@id/edittext"
         android:text="button"/>
 
+    <include
+        layout="@layout/ten_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        />
+
 </RelativeLayout>
